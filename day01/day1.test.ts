@@ -11,7 +11,7 @@ const input = readFileSync('day01/input.txt', 'utf8')
     .split('\n')
     .map((line) => line.trim());
 
-describe('Day 1: Calorie Counting', () => {
+describe('Day 1: Trebuchet?!', () => {
     test('Part 1, example 1', () => {
         expect(day1_1(sample)).toBe(142);
     });
@@ -29,6 +29,6 @@ describe('Day 1: Calorie Counting', () => {
     });
 
     test('Part 2, puzzle input', () => {
-        expect(day1_2(input)).toBe(0);
+        expect(day1_2(input)).toBe(53868);
     });
 });
