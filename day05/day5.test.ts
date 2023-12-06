@@ -22,6 +22,6 @@ describe('Day 5: If You Give A Seed A Fertilizer', () => {
     });
 
     test('Part 2, puzzle input', () => {
-        expect(day5_2(input)).toBe(0);
+        expect(day5_2(input)).toBe(78775051);
     });
 });
