@@ -19,7 +19,7 @@ describe('Day 12: Hot Springs', () => {
     });
 
     test('Part 2, example 1', () => {
-        expect(day12_2(sample)).toBe(0);
+        expect(day12_2(sample)).toBe(525152);
     });
 
     test('Part 2, puzzle input', () => {
